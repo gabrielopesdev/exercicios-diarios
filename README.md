@@ -1,2 +1,5 @@
-## Resolvendo 10 exercícios de algoritimo todos os dias!
-### Aqui documento os exercícios de algoritimo e de estrutura de dados que realizo diariamente
+## Resolvendo exercícios de algoritimo todos os dias!🧠
+### Aqui documento minha rotina de exercícios sobre:
+✅ algoritimos e lógica; 
+✅ Javascript; 
+✅ HTML e CSS;
