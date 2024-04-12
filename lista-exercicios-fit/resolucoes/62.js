@@ -14,7 +14,7 @@ mediaDosAlunos = []
 
 function lerAlunos(alunos) {
 
-    console.log(`O número de alunos nesta turma é de ${alunos[alunos.length]}`)
+    console.log(`O número de alunos nesta turma é de ${alunos.length}`)
 
 }
 
