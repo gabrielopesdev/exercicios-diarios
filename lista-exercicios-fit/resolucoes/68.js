@@ -1,17 +1,32 @@
-// ler o numero total de mercadorias em um estoque e o valor de cada mercadoria
-// calcular a media do valor desses marcadorias
+// leia o numero de mercadorias do estoque e o valor de cada mercadoria
+// preciso: numero total de mercadorias em estoque
+// preciso: valor de cada mercadoria
+// preciso: valor total em estoque
+// preciso: media dos valores das mercadorias
 
-const totalEstoque = 567
-const valorMercadoria = 97.60
 
-function calcMedia(total, valor) {
+mercadorias = [10, 22, 73]
 
-    valorTotal = total * valor
-    media = valorTotal / totalEstoque
+function calcEstoque(mercadorias) {
 
-    console.log(valorTotal)
-    console.log(media)
+    soma = 0
+    contador = 0
+    totalMercadorias = mercadorias.length
+
+    mercadorias.forEach((x) => {
+
+        contador++
+        soma += x
+        console.log(`O valor da ${contador}° mercadoria é: R$${x},00`)
+
+    })
+
+    media = soma / mercadorias.length 
+
+    console.log(`O total de mercadorias é: ${totalMercadorias}`)
+    console.log(`O valor total em mercadorias do estoque é:R$ ${soma},00`)
+    console.log(`A media dos valores das mercadorias em estoque é: R$${media},00`)
 
 }
 
-calcMedia(totalEstoque, valorMercadoria)
+calcEstoque(mercadorias)
