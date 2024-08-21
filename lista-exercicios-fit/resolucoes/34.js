@@ -28,4 +28,3 @@ console.log(resposta)
 // 04- z = -5 resposta = "A"
 // 05- z = 155 resposta = "C"
 
-
